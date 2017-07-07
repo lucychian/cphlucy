@@ -1,5 +1,7 @@
 body {
     font-family: 'Optima', 'Segoe UI' ,'Helvetica', 'Sans-Serif';
+    margin: 60px auto;
+    width: 70%;
 }
 
 nav {
@@ -14,7 +16,7 @@ nav ul {
 
 nav ul li {
     display: inline;
-    font-size: 12px;
+    font-size: 13px;
 }
 
 a {
@@ -35,12 +37,17 @@ h2 {
     font-family: 'Optima', 'Segoe UI' ,'Helvetica', 'Sans-Serif';
 }
 
+h3 {
+    font-size: 14px;
+}
+
 p {
     color: #333;
+    font-size: 14px;
     font-family:'Helvetica', 'Arial', 'Sans-serif';
 }
 
-#container {
-    margin: 60px auto;
-    width: 70%;
+#posts {
+    background-color: Gainsboro;
 }
+
